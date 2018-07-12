@@ -21,7 +21,7 @@ def draw():
     if xCoord >= rightBoundary or xCoord<= leftBoundary: 
         xSpeed = -xSpeed  
     if yCoord >= bottomBoundary or yCoord<= topBoundary: 
-        ySpeed = -ySpeed 
+        ySpeed = -ySpeed   
     
     fill(255, 255, 255) 
     ellipse(xCoord, yCoord, ellipseSize, ellipseSize) 
@@ -34,16 +34,7 @@ def draw():
     rect(500,0,100,80)
     rect(600,0,100,80)
     rect(700,0,100,80) 
-    
-    
-def boolean():
-    
-    a = False
-    if not a:
-        rect(0,0,100,80)
-    a = True
-    fill("#502E20") 
-    rect(0, 0, 100, 80) 
+
         
     
     
