@@ -53,13 +53,14 @@ def draw():
     fill(255, 255, 255) 
     if(brokenBrick3): 
         fill("#502E20") 
-    rect(200,0,100,80)  
+    rect(200,0,100,80) 
+    fill(255, 255, 255) 
     if(brokenBrick4): 
-        fill("#502E20")
+        fill("#502E20") 
+    rect(300,0,100,80) 
     fill(255, 255, 255) 
     if(brokenBrick5): 
         fill("#502E20")
-    rect(300,0,100,80)  
     fill(255, 255, 255)
     rect(400,0,100,80) 
     fill(255, 255, 255)
